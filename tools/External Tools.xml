@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Php-cs-fixer" description="Fixes coding standart" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/php-cs-fixer" />
+      <option name="PARAMETERS" value="--rules=@PSR2 --verbose fix $FileDir$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
