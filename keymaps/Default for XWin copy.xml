@@ -1,0 +1,5 @@
+<keymap version="1" name="Default for XWin copy" parent="Default for XWin">
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+  </action>
+</keymap>
