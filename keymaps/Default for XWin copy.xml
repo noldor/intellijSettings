@@ -2,4 +2,7 @@
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
+  <action id="PhpNewClass">
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
+  </action>
 </keymap>
