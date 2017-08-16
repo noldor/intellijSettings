@@ -1,5 +1,23 @@
 <application>
   <component name="libraryTable">
+    <library name="actionpack (v5.1.2, RVM: ruby-2.2.5) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/actionpack-5.1.2/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/actionpack-5.1.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="actionview (v5.1.2, RVM: ruby-2.2.5) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/actionview-5.1.2/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/actionview-5.1.2/lib" />
+      </SOURCES>
+    </library>
     <library name="activemodel (v5.1.2, RVM: ruby-2.2.5) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/activemodel-5.1.2/lib" />
@@ -56,6 +74,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/backports-3.8.0/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/backports-3.8.0/set_version" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/backports-3.8.0/frozen_old_spec" />
+      </SOURCES>
+    </library>
+    <library name="builder (v3.2.3, RVM: ruby-2.2.5) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/builder-3.2.3/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/builder-3.2.3/rakelib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/builder-3.2.3/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/builder-3.2.3/rakelib" />
       </SOURCES>
     </library>
     <library name="bundler (v1.15.2, RVM: ruby-2.2.5) [gem]">
@@ -158,6 +187,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/debase-ruby_core_source-0.9.9/lib" />
+      </SOURCES>
+    </library>
+    <library name="erubi (v1.6.1, RVM: ruby-2.2.5) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/erubi-1.6.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/erubi-1.6.1/lib" />
       </SOURCES>
     </library>
     <library name="execjs (v2.7.0, RVM: ruby-2.2.5) [gem]">
@@ -511,6 +549,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/libv8-3.16.14.19-x86_64-linux/vendor" />
       </SOURCES>
     </library>
+    <library name="loofah (v2.0.3, RVM: ruby-2.2.5) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/loofah-2.0.3/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/loofah-2.0.3/benchmark" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/loofah-2.0.3/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/loofah-2.0.3/benchmark" />
+      </SOURCES>
+    </library>
     <library name="method_source (v0.8.1, RVM: ruby-2.2.5) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/method_source-0.8.2/lib" />
@@ -647,6 +696,35 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/rack-test-0.6.3/lib" />
+      </SOURCES>
+    </library>
+    <library name="rails-dom-testing (v2.0.3, RVM: ruby-2.2.5) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/rails-dom-testing-2.0.3/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/rails-dom-testing-2.0.3/lib" />
+      </SOURCES>
+    </library>
+    <library name="rails-html-sanitizer (v1.0.3, RVM: ruby-2.2.5) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/rails-html-sanitizer-1.0.3/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/rails-html-sanitizer-1.0.3/lib" />
+      </SOURCES>
+    </library>
+    <library name="railties (v5.1.2, RVM: ruby-2.2.5) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/railties-5.1.2/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/railties-5.1.2/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/railties-5.1.2/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/railties-5.1.2/lib" />
       </SOURCES>
     </library>
     <library name="raindrops (v0.18.0, RVM: ruby-2.2.5) [gem]">
