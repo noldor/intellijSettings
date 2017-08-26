@@ -656,6 +656,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/delayed_job_active_record-4.1.2/lib" />
       </SOURCES>
     </library>
+    <library name="delayed_job_recurring (v0.3.6, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/delayed_job_recurring-0.3.6/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/delayed_job_recurring-0.3.6/lib" />
+      </SOURCES>
+    </library>
     <library name="delayed_job_web (v1.2.10, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/delayed_job_web-1.2.10/bin" />
