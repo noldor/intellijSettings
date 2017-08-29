@@ -761,6 +761,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/daemons-1.2.4/lib" />
       </SOURCES>
     </library>
+    <library name="daemons (v1.2.4, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/daemons-1.2.4/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/daemons-1.2.4/lib" />
+      </SOURCES>
+    </library>
     <library name="dalli (v2.7.6, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/dalli-2.7.6/lib" />
@@ -885,6 +894,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/delayed_job_active_record-4.1.2/lib" />
       </SOURCES>
     </library>
+    <library name="delayed_job_recurring (v0.3.6, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/delayed_job_recurring-0.3.6/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/delayed_job_recurring-0.3.6/lib" />
+      </SOURCES>
+    </library>
     <library name="delayed_job_web (v1.2.10, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/delayed_job_web-1.2.10/bin" />
@@ -894,6 +912,34 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/delayed_job_web-1.2.10/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/delayed_job_web-1.2.10/lib" />
+      </SOURCES>
+    </library>
+    <library name="devise (v4.3.0, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/devise-4.3.0/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/devise-4.3.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/devise-4.3.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/devise-4.3.0/config" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/devise-4.3.0/guides" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/devise-4.3.0/gemfiles" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/devise-4.3.0/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/devise-4.3.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/devise-4.3.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/devise-4.3.0/config" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/devise-4.3.0/guides" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/devise-4.3.0/gemfiles" />
+      </SOURCES>
+    </library>
+    <library name="devise_ldap_authenticatable (v0.8.5, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/devise_ldap_authenticatable-0.8.5/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/devise_ldap_authenticatable-0.8.5/lib" />
       </SOURCES>
     </library>
     <library name="did_you_mean (v1.0.0, RVM: ruby-2.3.3 [tm]) [gem]">
@@ -1887,6 +1933,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/oj-3.3.2/pages" />
       </SOURCES>
     </library>
+    <library name="orm_adapter (v0.5.0, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/orm_adapter-0.5.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/orm_adapter-0.5.0/gemfiles" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/orm_adapter-0.5.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/orm_adapter-0.5.0/gemfiles" />
+      </SOURCES>
+    </library>
     <library name="passenger (v5.1.1, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/passenger-5.1.1/bin" />
@@ -2469,6 +2526,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/request_store-1.0.5/lib" />
+      </SOURCES>
+    </library>
+    <library name="responders (v2.4.0, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/responders-2.4.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/responders-2.4.0/lib" />
       </SOURCES>
     </library>
     <library name="rmagick (v2.16.0, RVM: ruby-2.3.3 [tm]) [gem]">
@@ -3244,6 +3310,15 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/uuid-2.3.8/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/uuid-2.3.8/lib" />
+      </SOURCES>
+    </library>
+    <library name="warden (v1.2.7, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/warden-1.2.7/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/warden-1.2.7/lib" />
       </SOURCES>
     </library>
     <library name="wasabi (v3.3.1, RVM: ruby-2.3.3 [tm]) [gem]">
