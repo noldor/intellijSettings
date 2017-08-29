@@ -38,6 +38,12 @@
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
     <option name="INDENT_CHAINED_CALLS" value="false" />
   </TypeScriptCodeStyleSettings>
+  <codeStyleSettings language="Jade">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="SPACE_BEFORE_METHOD_PARENTHESES" value="true" />
