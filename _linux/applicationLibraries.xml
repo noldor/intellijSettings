@@ -1580,6 +1580,21 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/mysql2-0.3.21/support" />
       </SOURCES>
     </library>
+    <library name="mysql2 (v0.4.9, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs24/mysql2/0.4.9" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/mysql2-0.4.9/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/mysql2-0.4.9/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/mysql2-0.4.9/support" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs24/mysql2/0.4.9" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/mysql2-0.4.9/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/mysql2-0.4.9/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/mysql2-0.4.9/support" />
+      </SOURCES>
+    </library>
     <library name="net-ldap (v0.11, RVM: ruby-2.4.1) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/net-ldap-0.11/lib" />
