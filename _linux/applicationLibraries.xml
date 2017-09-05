@@ -3297,6 +3297,21 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/yard-0.9.9/benchmarks" />
       </SOURCES>
     </library>
+    <library name="yard (v0.9.9, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/yard-0.9.9/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/yard-0.9.9/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/yard-0.9.9/templates" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/yard-0.9.9/benchmarks" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/yard-0.9.9/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/yard-0.9.9/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/yard-0.9.9/templates" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/yard-0.9.9/benchmarks" />
+      </SOURCES>
+    </library>
     <library name="zip-zip (v0.3, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/zip-zip-0.3/lib" />
