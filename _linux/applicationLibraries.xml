@@ -1050,6 +1050,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/ffi-1.9.18/libtest" />
       </SOURCES>
     </library>
+    <library name="formatador (v0.2.5, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/formatador-0.2.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/formatador-0.2.5/tests" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/formatador-0.2.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/formatador-0.2.5/tests" />
+      </SOURCES>
+    </library>
     <library name="gem-wrappers (v1.2.7, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@global/gems/gem-wrappers-1.2.7/ext" />
@@ -1112,6 +1123,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/gon-6.1.0/js" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/gon-6.1.0/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/gon-6.1.0/coffee" />
+      </SOURCES>
+    </library>
+    <library name="guard-compat (v1.2.1, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-compat-1.2.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-compat-1.2.1/lib" />
       </SOURCES>
     </library>
     <library name="gyoku (v1.1.1, RVM: ruby-2.3.3 [tm]) [gem]">
@@ -1761,6 +1781,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/mysql2-0.4.9/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/mysql2-0.4.9/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/mysql2-0.4.9/support" />
+      </SOURCES>
+    </library>
+    <library name="nenv (v0.3.0, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/nenv-0.3.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/nenv-0.3.0/lib" />
       </SOURCES>
     </library>
     <library name="net-ldap (v0.11, RVM: ruby-2.4.1) [gem]">
@@ -2891,6 +2920,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/sequel-4.48.0/lib" />
       </SOURCES>
     </library>
+    <library name="shellany (v0.0.1, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/shellany-0.0.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/shellany-0.0.1/lib" />
+      </SOURCES>
+    </library>
     <library name="simplecov (v0.9.2, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/simplecov-0.9.2/lib" />
@@ -2977,6 +3015,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/slim-3.0.8/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/slim-3.0.8/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/slim-3.0.8/benchmarks" />
+      </SOURCES>
+    </library>
+    <library name="slop (v3.6.0, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/slop-3.6.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/slop-3.6.0/lib" />
       </SOURCES>
     </library>
     <library name="spreadsheet (v1.1.4, RVM: ruby-2.3.3 [tm]) [gem]">
