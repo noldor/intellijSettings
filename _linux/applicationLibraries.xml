@@ -453,6 +453,19 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/bundler-1.15.4/task" />
       </SOURCES>
     </library>
+    <library name="bundler (v1.16.0.pre.2, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/bundler-1.16.0.pre.2/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/bundler-1.16.0.pre.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/bundler-1.16.0.pre.2/man" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/bundler-1.16.0.pre.2/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/bundler-1.16.0.pre.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/bundler-1.16.0.pre.2/man" />
+      </SOURCES>
+    </library>
     <library name="bundler-unload (v1.0.2, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@global/gems/bundler-unload-1.0.2/lib" />
@@ -598,6 +611,17 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/coderay-1.1.1/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/coderay-1.1.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="coderay (v1.1.2, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/coderay-1.1.2/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/coderay-1.1.2/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/coderay-1.1.2/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/coderay-1.1.2/lib" />
       </SOURCES>
     </library>
     <library name="coffee-rails (v4.2.2, RVM: ruby-2.4.1) [gem]">
@@ -1125,6 +1149,21 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/gon-6.1.0/coffee" />
       </SOURCES>
     </library>
+    <library name="guard (v2.14.1, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-2.14.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-2.14.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-2.14.1/man" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-2.14.1/images" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-2.14.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-2.14.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-2.14.1/man" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-2.14.1/images" />
+      </SOURCES>
+    </library>
     <library name="guard-compat (v1.2.1, RVM: ruby-2.4.1) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-compat-1.2.1/lib" />
@@ -1132,6 +1171,17 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-compat-1.2.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="guard-rspec (v4.7.3, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-rspec-4.7.3/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-rspec-4.7.3/gemfiles" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-rspec-4.7.3/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-rspec-4.7.3/gemfiles" />
       </SOURCES>
     </library>
     <library name="gyoku (v1.1.1, RVM: ruby-2.3.3 [tm]) [gem]">
@@ -1511,6 +1561,15 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/loofah-2.0.3/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/loofah-2.0.3/benchmark" />
+      </SOURCES>
+    </library>
+    <library name="lumberjack (v1.0.12, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/lumberjack-1.0.12/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/lumberjack-1.0.12/lib" />
       </SOURCES>
     </library>
     <library name="macaddr (v1.7.1, RVM: ruby-2.3.3 [tm]) [gem]">
@@ -1917,6 +1976,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/nori-2.4.0/benchmark" />
       </SOURCES>
     </library>
+    <library name="notiffany (v0.1.1, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/notiffany-0.1.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/notiffany-0.1.1/images" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/notiffany-0.1.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/notiffany-0.1.1/images" />
+      </SOURCES>
+    </library>
     <library name="oink (v0.10.1, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/oink-0.10.1/bin" />
@@ -2062,6 +2132,17 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/protected_attributes-1.1.4/lib" />
+      </SOURCES>
+    </library>
+    <library name="pry (v0.10.4, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/pry-0.10.4/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/pry-0.10.4/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/pry-0.10.4/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/pry-0.10.4/lib" />
       </SOURCES>
     </library>
     <library name="public_suffix (v2.0.5, RVM: ruby-2.3.3 [tm]) [gem]">
