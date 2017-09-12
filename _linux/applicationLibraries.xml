@@ -714,6 +714,21 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/dalli-2.7.6/lib" />
       </SOURCES>
     </library>
+    <library name="daru (v0.1.6, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/daru-0.1.6/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/daru-0.1.6/images" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/daru-0.1.6/profile" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/daru-0.1.6/benchmarks" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/daru-0.1.6/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/daru-0.1.6/images" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/daru-0.1.6/profile" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/daru-0.1.6/benchmarks" />
+      </SOURCES>
+    </library>
     <library name="database_cleaner (v1.6.1, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/database_cleaner-1.6.1/lib" />
@@ -911,6 +926,23 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/diff-lcs-1.3/autotest" />
       </SOURCES>
     </library>
+    <library name="distribution (v0.7.3, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/distribution-0.7.3/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/distribution-0.7.3/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/distribution-0.7.3/data" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/distribution-0.7.3/vendor" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/distribution-0.7.3/benchmark" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/distribution-0.7.3/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/distribution-0.7.3/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/distribution-0.7.3/data" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/distribution-0.7.3/vendor" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/distribution-0.7.3/benchmark" />
+      </SOURCES>
+    </library>
     <library name="docile (v1.1.5, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/docile-1.1.5/lib" />
@@ -927,6 +959,19 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/bundler/gems/ruby-docx-templater-1719c933ff95/lib" />
+      </SOURCES>
+    </library>
+    <library name="domain_name (v0.5.20170404, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/domain_name-0.5.20170404/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/domain_name-0.5.20170404/data" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/domain_name-0.5.20170404/tool" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/domain_name-0.5.20170404/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/domain_name-0.5.20170404/data" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/domain_name-0.5.20170404/tool" />
       </SOURCES>
     </library>
     <library name="erubi (v1.6.1, RVM: ruby-2.4.1) [gem]">
@@ -1222,6 +1267,15 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/htmlentities-4.3.4/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/htmlentities-4.3.4/perf" />
+      </SOURCES>
+    </library>
+    <library name="http-cookie (v1.0.3, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/http-cookie-1.0.3/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/http-cookie-1.0.3/lib" />
       </SOURCES>
     </library>
     <library name="httpi (v2.2.7, RVM: ruby-2.3.3 [tm]) [gem]">
@@ -1599,6 +1653,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/mail-2.6.6/lib" />
       </SOURCES>
     </library>
+    <library name="mechanize (v2.7.5, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/mechanize-2.7.5/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/mechanize-2.7.5/lib" />
+      </SOURCES>
+    </library>
     <library name="metaclass (v0.0.4, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/metaclass-0.0.4/lib" />
@@ -1701,6 +1764,15 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/mini_portile2-2.2.0/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/mini_portile2-2.2.0/concourse" />
+      </SOURCES>
+    </library>
+    <library name="minimization (v0.2.3, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/minimization-0.2.3/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/minimization-0.2.3/lib" />
       </SOURCES>
     </library>
     <library name="minitest (v5.10.1, RVM: ruby-2.4.1 [global]) [gem]">
@@ -1987,6 +2059,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/notiffany-0.1.1/images" />
       </SOURCES>
     </library>
+    <library name="ntlm-http (v0.1.1, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/ntlm-http-0.1.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/ntlm-http-0.1.1/lib" />
+      </SOURCES>
+    </library>
     <library name="oink (v0.10.1, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/oink-0.10.1/bin" />
@@ -2123,6 +2204,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/powerpack-0.1.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="prawn-svg (v0.9.1.11, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/prawn-svg-0.9.1.11/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/prawn-svg-0.9.1.11/lib" />
       </SOURCES>
     </library>
     <library name="protected_attributes (v1.1.4, RVM: ruby-2.3.3 [tm]) [gem]">
@@ -2670,6 +2760,19 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/roo-1.13.2/website" />
       </SOURCES>
     </library>
+    <library name="rserve-client (v0.3.5, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/rserve-client-0.3.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/rserve-client-0.3.5/data" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/rserve-client-0.3.5/benchmark" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/rserve-client-0.3.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/rserve-client-0.3.5/data" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/rserve-client-0.3.5/benchmark" />
+      </SOURCES>
+    </library>
     <library name="rspec (v3.6.0, RVM: ruby-2.4.1) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/rspec-3.6.0/lib" />
@@ -2868,6 +2971,17 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@global/gems/rubygems-bundler-1.4.4/lib" />
+      </SOURCES>
+    </library>
+    <library name="rubyvis (v0.6.1, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/rubyvis-0.6.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/rubyvis-0.6.1/web" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/rubyvis-0.6.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/rubyvis-0.6.1/web" />
       </SOURCES>
     </library>
     <library name="rubyzip (v1.0.0, RVM: ruby-2.4.1) [gem]">
@@ -3118,6 +3232,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/spreadsheet-1.1.4/lib" />
       </SOURCES>
     </library>
+    <library name="spreadsheet (v1.1.4, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/spreadsheet-1.1.4/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/spreadsheet-1.1.4/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/spreadsheet-1.1.4/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/spreadsheet-1.1.4/lib" />
+      </SOURCES>
+    </library>
     <library name="spring (v2.0.2, RVM: ruby-2.4.1) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/bin" />
@@ -3191,6 +3316,23 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/sqlite3-1.3.13/faq" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/sqlite3-1.3.13/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/sqlite3-1.3.13/tasks" />
+      </SOURCES>
+    </library>
+    <library name="statsample (v2.1.0, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/statsample-2.1.0/po" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/statsample-2.1.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/statsample-2.1.0/data" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/statsample-2.1.0/doc_latex" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/statsample-2.1.0/benchmarks" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/statsample-2.1.0/po" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/statsample-2.1.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/statsample-2.1.0/data" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/statsample-2.1.0/doc_latex" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/statsample-2.1.0/benchmarks" />
       </SOURCES>
     </library>
     <library name="systemu (v2.6.5, RVM: ruby-2.3.3 [tm]) [gem]">
@@ -3407,6 +3549,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/uglifier-3.2.0/lib" />
       </SOURCES>
     </library>
+    <library name="unf (v0.1.4, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/unf-0.1.4/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/unf-0.1.4/lib" />
+      </SOURCES>
+    </library>
     <library name="unicode (v0.4.4.4, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/unicode-0.4.4.4/ext" />
@@ -3497,6 +3648,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/web-console-3.5.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="webrobots (v0.1.2, RVM: ruby-2.4.1) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/webrobots-0.1.2/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/webrobots-0.1.2/lib" />
       </SOURCES>
     </library>
     <library name="websocket-driver (v0.6.5, RVM: ruby-2.4.1) [gem]">
