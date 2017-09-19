@@ -1,21 +1,23 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="rspec_results" type="PLAIN_TEXT" />
-      <mapping pattern="users" type="PLAIN_TEXT" />
-      <mapping pattern="Filters" type="PLAIN_TEXT" />
       <mapping pattern=".ruby-version" type="PLAIN_TEXT" />
-      <mapping pattern="hot" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
+      <mapping pattern="Filters" type="PLAIN_TEXT" />
       <mapping pattern="main" type="PLAIN_TEXT" />
       <mapping pattern="rspec_guard_result" type="PLAIN_TEXT" />
+      <mapping pattern="users" type="PLAIN_TEXT" />
+      <mapping pattern="hot" type="PLAIN_TEXT" />
       <mapping pattern=".rspec_parallel" type="PLAIN_TEXT" />
-      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping ext="cache" type="PLAIN_TEXT" />
+      <mapping ext="so" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="sqlite" type="PLAIN_TEXT" />
       <mapping ext="theme" type="SCSS" />
+      <removed_mapping ext="so" type="UNKNOWN" />
+      <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
 </application>
