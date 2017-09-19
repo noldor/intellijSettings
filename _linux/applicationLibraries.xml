@@ -1297,6 +1297,50 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/gon-6.1.0/coffee" />
       </SOURCES>
     </library>
+    <library name="graphiql-rails (v1.4.4, RVM: ruby-2.3.3 [tm]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/graphiql-rails-1.4.4/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/graphiql-rails-1.4.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/graphiql-rails-1.4.4/config" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/graphiql-rails-1.4.4/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/graphiql-rails-1.4.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/graphiql-rails-1.4.4/config" />
+      </SOURCES>
+    </library>
+    <library name="graphql (v1.6.8, RVM: ruby-2.3.3 [tm]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/graphql-1.6.8/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/graphql-1.6.8/lib" />
+      </SOURCES>
+    </library>
+    <library name="graphql-batch (v0.3.5, RVM: ruby-2.3.3 [tm]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/graphql-batch-0.3.5/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/graphql-batch-0.3.5/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/graphql-batch-0.3.5/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/graphql-batch-0.3.5/lib" />
+      </SOURCES>
+    </library>
+    <library name="graphql-preload (v1.0.3, RVM: ruby-2.3.3 [tm]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/graphql-preload-1.0.3/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/graphql-preload-1.0.3/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/graphql-preload-1.0.3/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/graphql-preload-1.0.3/lib" />
+      </SOURCES>
+    </library>
     <library name="guard (v2.14.1, RVM: ruby-2.4.1) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/guard-2.14.1/bin" />
@@ -2242,6 +2286,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/orm_adapter-0.5.0/gemfiles" />
       </SOURCES>
     </library>
+    <library name="parallel (v1.12.0, RVM: ruby-2.3.3 [tm]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/parallel-1.12.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/parallel-1.12.0/lib" />
+      </SOURCES>
+    </library>
     <library name="parallel (v1.12.0, RVM: ruby-2.4.1) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/parallel-1.12.0/lib" />
@@ -2440,6 +2493,19 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/prawn-svg-0.9.1.11/lib" />
+      </SOURCES>
+    </library>
+    <library name="promise.rb (v0.7.4, RVM: ruby-2.3.3 [tm]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/promise.rb-0.7.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/promise.rb-0.7.4/config" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/promise.rb-0.7.4/benchmark" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/promise.rb-0.7.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/promise.rb-0.7.4/config" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/promise.rb-0.7.4/benchmark" />
       </SOURCES>
     </library>
     <library name="protected_attributes (v1.1.4, RVM: ruby-2.3.3 [tm]) [gem]">
@@ -3081,6 +3147,21 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/rubocop-0.49.1/config" />
       </SOURCES>
     </library>
+    <library name="rubocop (v0.50.0, RVM: ruby-2.3.3 [tm]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/rubocop-0.50.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/rubocop-0.50.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/rubocop-0.50.0/assets" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/rubocop-0.50.0/config" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/rubocop-0.50.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/rubocop-0.50.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/rubocop-0.50.0/assets" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/rubocop-0.50.0/config" />
+      </SOURCES>
+    </library>
     <library name="ruby-debug-ide (v0.6.1.beta4, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/ruby-debug-ide-0.6.1.beta4/bin" />
@@ -3160,6 +3241,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/ruby-progressbar-1.8.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="ruby-progressbar (v1.8.3, RVM: ruby-2.3.3 [tm]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/ruby-progressbar-1.8.3/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/ruby-progressbar-1.8.3/lib" />
       </SOURCES>
     </library>
     <library name="ruby_dep (v1.5.0, RVM: ruby-2.4.1) [gem]">
@@ -3788,6 +3878,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/unicode-0.4.4.4/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/unicode-0.4.4.4/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/unicode-0.4.4.4/tools" />
+      </SOURCES>
+    </library>
+    <library name="unicode-display_width (v1.3.0, RVM: ruby-2.3.3 [tm]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/unicode-display_width-1.3.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/unicode-display_width-1.3.0/data" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/unicode-display_width-1.3.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/unicode-display_width-1.3.0/data" />
       </SOURCES>
     </library>
     <library name="unicode-display_width (v1.3.0, RVM: ruby-2.4.1) [gem]">
