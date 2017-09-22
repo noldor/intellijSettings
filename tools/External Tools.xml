@@ -13,18 +13,11 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
-  <tool name="art" description="333" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="test" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$USER_HOME$/projects/sites/cms/artisan" />
-      <option name="PARAMETERS" value="$Prompt$" />
+      <option name="PARAMETERS" value="users:test --tt=$FilePrompt$" />
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/projects/sites/cms" />
-    </exec>
-  </tool>
-  <tool name="yarn" description="test" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="/usr/bin/yarn" />
-      <option name="PARAMETERS" value="$Prompt$" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
 </toolSet>
