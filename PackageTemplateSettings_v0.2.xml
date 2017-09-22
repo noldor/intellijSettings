@@ -1,0 +1,5 @@
+<application>
+  <component name="PackageTemplateSettings_v0.2">
+    <option name="value" value="{&#10;  &quot;modelVersion&quot;: 1,&#10;  &quot;userSettings&quot;: {&#10;    &quot;language&quot;: &quot;EN&quot;&#10;  },&#10;  &quot;listFavourite&quot;: [],&#10;  &quot;autoImport&quot;: {&#10;    &quot;writeRules&quot;: &quot;OVERWRITE&quot;,&#10;    &quot;paths&quot;: []&#10;  }&#10;}" />
+  </component>
+</application>
