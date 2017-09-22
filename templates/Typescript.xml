@@ -1,5 +1,6 @@
 <templateSet group="Typescript">
-  <template name="impr" value="import $ANY$ from ${MODULE}" description="import any from any" toReformat="false" toShortenFQNames="true">
+  <template name="import" value="import $ANY$ from $MODULE$" description="import any from any" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ANY" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
