@@ -34,14 +34,14 @@
   </template>
   <template name="imp" value="import $ANY$ from $MODULE$" description="import code from module" toReformat="false" toShortenFQNames="true">
     <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="ANY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ANY" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="vcom" value="@Component({&#10;  name: '$NAME$'&#10;})&#10;export default class $CLASSNAME$ extends Vue {&#10;  $END$&#10;}" description="Create vue component" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="fileName()" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASSNAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
@@ -77,21 +77,21 @@
   </template>
   <template name="ecli" value="export class $NAME$ impements $INTERFACE$ {&#10;  $END$&#10;}" description="export class that implements interface" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="INTERFACE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="INTERFACE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="edcli" value="export default class $NAME$ implements $INTERFACE$ {&#10;  $END$&#10;}" description="export default class that implements interface" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="INTERFACE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="INTERFACE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="ecle" value="export class $NAME$ extends $ANOTHERCLASS$ {&#10;  $END$&#10;}" description="export class that extends another class" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="ANOTHERCLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ANOTHERCLASS" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
@@ -99,7 +99,7 @@
   </template>
   <template name="edcle" value="export default class $NAME$ extends $ANOTHERCLASS$ {&#10;  $END$&#10;}" description="export default class that extends another class" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="ANOTHERCLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ANOTHERCLASS" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
@@ -122,7 +122,7 @@
     </context>
   </template>
   <template name="cl" value="class $NAME$ {&#10;  $END$&#10;}" description="class statement" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
@@ -130,14 +130,14 @@
   </template>
   <template name="cli" value="class $NAME$ implements $INTERFACE$ {&#10;  $END$&#10;}" description="class that implements interface statement" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="INTERFACE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="INTERFACE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="cle" value="class $NAME$ extends $ANOTHERCLASS$ {&#10;  $END$&#10;}" description="class that extends another class statement" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="ANOTHERCLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ANOTHERCLASS" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
@@ -150,7 +150,7 @@
     </context>
   </template>
   <template name="clog" value="console.log($ARGS$)" description="console.log" toReformat="false" toShortenFQNames="true">
-    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
@@ -158,7 +158,7 @@
   </template>
   <template name="impp" value="import { $PARTS$ } from $MODULE$" description="import partial code from module" toReformat="false" toShortenFQNames="true">
     <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="PARTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARTS" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
@@ -188,6 +188,47 @@
     <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="vco" value="$NAME$: {&#10;  $ARGS$&#10;}" description="vue component option group" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name=".g" value="...mapGetters(['$END$'])" description="map getters" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name=".s" value="...mapState(['$END$'])" description="map state" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name=".m" value="...mapMutations(['$END$'])" description="map mutations" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name=".a" value="...mapActions(['$END$'])" description="map actions" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="vpv" value="$NAME$: {&#10;  type: $TYPE$,&#10;  required: $REQUIRED$&#10;}" description="vue property validation" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="REQUIRED" expression="" defaultValue="true" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
 </templateSet>
