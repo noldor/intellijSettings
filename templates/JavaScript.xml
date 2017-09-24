@@ -1,19 +1,19 @@
 <templateSet group="JavaScript">
-  <template name="iter" value="for (const $VAR$ of $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..of) - ES2015" toReformat="true" toShortenFQNames="true">
+  <template name="iter" value="for (const $VAR$ of $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..of) - ES2015" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="itin" value="for (const $VAR$ in $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..in)" toReformat="false" toShortenFQNames="true">
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="itin" value="for (const $VAR$ in $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..in)" toReformat="true" toShortenFQNames="true">
-    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
-    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="TypeScript" value="true" />
-    </context>
-  </template>
-  <template name="itar" value="for (const $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  const $VAR$ = $ARRAY$[$INDEX$]&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
+  <template name="itar" value="for (const $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  const $VAR$ = $ARRAY$[$INDEX$]&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="false" toShortenFQNames="true">
     <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
@@ -21,7 +21,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="ritar" value="for (const $INDEX$ = $ARRAY$.length - 1; $INDEX$ &gt;= 0; $INDEX$--) {&#10;  const $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array in reverse order" toReformat="true" toShortenFQNames="true">
+  <template name="ritar" value="for (const $INDEX$ = $ARRAY$.length - 1; $INDEX$ &gt;= 0; $INDEX$--) {&#10;  const $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array in reverse order" toReformat="false" toShortenFQNames="true">
     <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
@@ -29,7 +29,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="us" value="&quot;use strict&quot;&#10;$END$" description="Inserts 'use strict' statement" toReformat="true" toShortenFQNames="true">
+  <template name="us" value="&quot;use strict&quot;&#10;$END$" description="Inserts 'use strict' statement" toReformat="false" toShortenFQNames="true">
     <context />
   </template>
   <template name="imp" value="import $ANY$ from $MODULE$" description="import code from module" toReformat="false" toShortenFQNames="true">
@@ -40,14 +40,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="vcom" value="@Component({&#10;  name: '$NAME$'&#10;})&#10;export default class $CLASSNAME$ extends Vue {&#10;  $END$&#10;}" description="Create vue component" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="fileName()" defaultValue="" alwaysStopAt="true" />
-    <variable name="CLASSNAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="TypeScript" value="true" />
-    </context>
-  </template>
-  <template name="vcomj" value="export default {&#10;  name: '$NAME$',&#10;  $END$&#10;}" description="Create js vue component" toReformat="false" toShortenFQNames="true">
+  <template name="vcom" value="export default {&#10;  name: '$NAME$',&#10;  $END$&#10;}" description="Create js vue component" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -61,36 +54,36 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="ecl" value="export class $NAME$ {&#10;  $END$&#10;}" description="export class" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="ecl" value="export class $NAME$ {&#10;  $END$&#10;}" description="export class statement" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="edcl" value="export default class $NAME$ {&#10;  $END$&#10;}" description="export default class" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="ecli" value="export class $NAME$ impements $INTERFACE$ {&#10;  $END$&#10;}" description="export class that implements interface" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <variable name="INTERFACE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="edcli" value="export default class $NAME$ implements $INTERFACE$ {&#10;  $END$&#10;}" description="export default class that implements interface" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <variable name="INTERFACE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="ecle" value="export class $NAME$ extends $ANOTHERCLASS$ {&#10;  $END$&#10;}" description="export class that extends another class" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <variable name="ANOTHERCLASS" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
@@ -98,7 +91,7 @@
     </context>
   </template>
   <template name="edcle" value="export default class $NAME$ extends $ANOTHERCLASS$ {&#10;  $END$&#10;}" description="export default class that extends another class" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <variable name="ANOTHERCLASS" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
@@ -129,14 +122,14 @@
     </context>
   </template>
   <template name="cli" value="class $NAME$ implements $INTERFACE$ {&#10;  $END$&#10;}" description="class that implements interface statement" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <variable name="INTERFACE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="cle" value="class $NAME$ extends $ANOTHERCLASS$ {&#10;  $END$&#10;}" description="class that extends another class statement" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <variable name="ANOTHERCLASS" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
@@ -178,7 +171,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="afs" value="($ARGS$) =&gt; $END$" description="JS simple arrow function" toReformat="false" toShortenFQNames="true">
+  <template name="afs" value="($ARGS$) =&gt; $END$" description="JS arrow function 1 line" toReformat="false" toShortenFQNames="true">
     <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
@@ -190,9 +183,8 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="vco" value="$NAME$: {&#10;  $ARGS$&#10;}" description="vue component option group" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="vco" value="$NAME$: {&#10;  $END$&#10;}" description="vue component option group" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="enum(&quot;components&quot;, &quot;props&quot;, &quot;computed&quot;, &quot;methods&quot;, &quot;watch&quot;, &quot;directives&quot;, &quot;transitions&quot;, &quot;fitlers&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
@@ -225,7 +217,18 @@
   <template name="vpv" value="$NAME$: {&#10;  type: $TYPE$,&#10;  required: $REQUIRED$&#10;}" description="vue property validation" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="REQUIRED" expression="" defaultValue="true" alwaysStopAt="true" />
+    <variable name="REQUIRED" expression="enum(&quot;true&quot;, &quot;false&quot;)" defaultValue="true" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ref" value="///&lt;reference path=&quot;$PATH$&quot;/&gt;&#10;$END$" description="Inserts reference path comment" toReformat="false" toShortenFQNames="false">
+    <variable name="PATH" expression="complete()" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="vuse" value="Vue.use($NAME$)" description="Vue.use" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />

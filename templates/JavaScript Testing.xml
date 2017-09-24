@@ -1,20 +1,19 @@
 <templateSet group="JavaScript Testing">
-  <template name="descr" value="describe('$NAME$', () =&gt; {&#10;  $END$&#10;})" description="Inserts describe() block" toReformat="true" toShortenFQNames="true">
+  <template name="des" value="describe('$NAME$', () =&gt; {&#10;  $END$&#10;})" description="Inserts describe() block" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="bfe" value="beforeEach(() =&gt; {&#10;  $END$&#10;})" description="Inserts beforeEach() block" toReformat="true" toShortenFQNames="true">
+  <template name="bfe" value="beforeEach(() =&gt; {&#10;  $END$&#10;})" description="Inserts beforeEach() block" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="it" value="it('should $NAME$', () =&gt; {&#10;  $END$&#10;})" description="Inserts it() block" toReformat="true" toShortenFQNames="true">
+  <template name="it" value="it('should $NAME$', () =&gt; {&#10;  $END$&#10;})" description="Inserts it() block" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="false" />
@@ -22,28 +21,28 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="afe" value="afterEach(() =&gt; {&#10;  $END$&#10;})" description="Inserts afterEach() block" toReformat="true" toShortenFQNames="true">
+  <template name="afe" value="afterEach(() =&gt; {&#10;  $END$&#10;})" description="Inserts afterEach() block" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="af" value="after(() =&gt; {&#10;  $END$&#10;})" description="Inserts after() block" toReformat="true" toShortenFQNames="true">
+  <template name="af" value="after(() =&gt; {&#10;  $END$&#10;})" description="Inserts after() block" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="bf" value="before(() =&gt; {&#10;  $END$&#10;})" description="Inserts before() block" toReformat="true" toShortenFQNames="true">
+  <template name="bf" value="before(() =&gt; {&#10;  $END$&#10;})" description="Inserts before() block" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="desit" value="describe('$DESCRIABLE$', () =&gt; {&#10;  it('should $NAME$', () =&gt; {&#10;    $END$&#10;  })&#10;})" description="insert describe and it statements" toReformat="true" toShortenFQNames="true">
+  <template name="desit" value="describe('$DESCRIABLE$', () =&gt; {&#10;  it('should $NAME$', () =&gt; {&#10;    $END$&#10;  })&#10;})" description="insert describe and it statements" toReformat="false" toShortenFQNames="true">
     <variable name="DESCRIABLE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
