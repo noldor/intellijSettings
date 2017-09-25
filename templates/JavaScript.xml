@@ -32,7 +32,7 @@
   <template name="us" value="&quot;use strict&quot;&#10;$END$" description="Inserts 'use strict' statement" toReformat="false" toShortenFQNames="true">
     <context />
   </template>
-  <template name="imp" value="import $ANY$ from $MODULE$" description="import code from module" toReformat="false" toShortenFQNames="true">
+  <template name="imp" value="import $ANY$ from '$MODULE$'" description="import code from module" toReformat="false" toShortenFQNames="true">
     <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ANY" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -149,9 +149,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="impp" value="import { $PARTS$ } from $MODULE$" description="import partial code from module" toReformat="false" toShortenFQNames="true">
+  <template name="impp" value="import { $PARTS$ } from '$MODULE$'" description="import partial code from module" toReformat="false" toShortenFQNames="true">
     <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="PARTS" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARTS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
