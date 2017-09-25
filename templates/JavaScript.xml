@@ -143,7 +143,7 @@
     </context>
   </template>
   <template name="clog" value="console.log($ARGS$)" description="console.log" toReformat="false" toShortenFQNames="true">
-    <variable name="ARGS" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
