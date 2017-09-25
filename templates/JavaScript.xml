@@ -316,4 +316,13 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="cond" value="($CONDITION$) ? $FIRSTVAR$ : $SECONDVAR$" description="Conditional operator" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIRSTVAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SECONDVAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
