@@ -234,4 +234,79 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="strc" value="try {&#10;  $SELECTION$&#10;} catch (error) {&#10;  $HANDLER$&#10;}" description="surround with try catch block" toReformat="false" toShortenFQNames="true">
+    <variable name="HANDLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="trc" value="try {&#10;  $CODE$&#10;} catch (error) {&#10;  $HANDLER$&#10;}" description="try catch block" toReformat="false" toShortenFQNames="true">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HANDLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="trcf" value="try {&#10;  $CODE$&#10;} catch (error) {&#10;  $HANDLER$&#10;} finally {&#10;  $FINALLYHANDLER$&#10;}" description="try catch finally" toReformat="false" toShortenFQNames="true">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HANDLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FINALLYHANDLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="strcf" value="try {&#10;  $SELECTION$&#10;} catch (error) {&#10;  $HANDLER$&#10;} finally {&#10;  $FINALLYHANDLER$&#10;}" description="surround with try catch finally" toReformat="false" toShortenFQNames="true">
+    <variable name="HANDLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FINALLYHANDLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="trf" value="try {&#10;  $CODE$&#10;} finally {&#10;  $FINALLYHANDLER$&#10;}" description="try finally" toReformat="false" toShortenFQNames="true">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FINALLYHANDLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="strf" value="try {&#10;  $SELECTION$&#10;} finally {&#10;  $FINALLYHANDLER$&#10;}" description="surround with try finally" toReformat="false" toShortenFQNames="true">
+    <variable name="FINALLYHANDLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ($CONDITION$) {&#10;  $END$&#10;}" description="if condition" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ifel" value="if ($CONDITION$) {&#10;  $CODE$&#10;} else {&#10;  $END$&#10;}" description="if with else" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="elif" value="} else if ($CONDITION$) {&#10;  $END$" description="else if" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="thr" value="throw new $END$" description="throw new error" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
