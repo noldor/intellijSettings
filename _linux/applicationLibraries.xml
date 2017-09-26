@@ -868,6 +868,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/daru-0.1.6/benchmarks" />
       </SOURCES>
     </library>
+    <library name="debase (v0.2.1, RVM: ruby-2.4.1 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@control/gems/debase-0.2.1/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@control/gems/debase-0.2.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@control/gems/debase-0.2.1/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@control/gems/debase-0.2.1/lib" />
+      </SOURCES>
+    </library>
     <library name="debase (v0.2.2.beta10, RVM: ruby-2.2.5) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/debase-0.2.2.beta10/ext" />
@@ -877,6 +888,17 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/debase-0.2.2.beta10/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/debase-0.2.2.beta10/lib" />
+      </SOURCES>
+    </library>
+    <library name="debase (v0.2.2.beta10, RVM: ruby-2.4.1 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@control/gems/debase-0.2.2.beta10/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@control/gems/debase-0.2.2.beta10/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@control/gems/debase-0.2.2.beta10/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@control/gems/debase-0.2.2.beta10/lib" />
       </SOURCES>
     </library>
     <library name="debase (v0.2.2.beta10, RVM: ruby-2.4.1) [gem]">
@@ -899,6 +921,15 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/debase-0.2.2.beta9/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5/gems/debase-0.2.2.beta9/lib" />
+      </SOURCES>
+    </library>
+    <library name="debase-ruby_core_source (v0.9.10, RVM: ruby-2.4.1 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@control/gems/debase-ruby_core_source-0.9.10/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@control/gems/debase-ruby_core_source-0.9.10/lib" />
       </SOURCES>
     </library>
     <library name="debase-ruby_core_source (v0.9.9, RVM: ruby-2.2.5) [gem]">
@@ -3830,6 +3861,19 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/ruby-debug-ide-0.6.1.beta4/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/ruby-debug-ide-0.6.1.beta4/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/ruby-debug-ide-0.6.1.beta4/lib" />
+      </SOURCES>
+    </library>
+    <library name="ruby-debug-ide (v0.6.1.beta9, RVM: ruby-2.4.1 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@control/gems/ruby-debug-ide-0.6.1.beta9/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@control/gems/ruby-debug-ide-0.6.1.beta9/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@control/gems/ruby-debug-ide-0.6.1.beta9/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@control/gems/ruby-debug-ide-0.6.1.beta9/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@control/gems/ruby-debug-ide-0.6.1.beta9/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1@control/gems/ruby-debug-ide-0.6.1.beta9/lib" />
       </SOURCES>
     </library>
     <library name="ruby-ole (v1.2.12.1, RVM: ruby-2.4.1 [control]) [gem]">
