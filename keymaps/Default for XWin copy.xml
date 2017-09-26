@@ -5,7 +5,7 @@
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
-  <action id="NewFile">
+  <action id="NewElementInMenuGroup">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
   <action id="PhpNewClass">

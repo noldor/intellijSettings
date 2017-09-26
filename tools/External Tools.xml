@@ -13,4 +13,11 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
+  <tool name="test" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/projects/sites/cms/artisan" />
+      <option name="PARAMETERS" value="users:test --tt=$FilePrompt$" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/projects/sites/cms" />
+    </exec>
+  </tool>
 </toolSet>
