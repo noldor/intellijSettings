@@ -2,7 +2,7 @@
   <template name="am" value="async $NAME$ ($ARGS$): $RETURNTYPE$ {&#10;  $END$&#10;}" description="TS async method" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
@@ -10,28 +10,28 @@
   <template name="m" value="$NAME$ ($ARGS$): $RETURNTYPE$ {&#10;  $END$&#10;}" description="TS method" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="afs" value="($ARGS$): $RETURNTYPE$ =&gt; $END$" description="TS arrow function 1 line" toReformat="false" toShortenFQNames="true">
     <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="af" value="($ARGS$): $RETURNTYPE$ =&gt; {&#10;  $END$&#10;}" description="TS arrow function" toReformat="false" toShortenFQNames="true">
     <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="arg" value="$NAME$: $TYPE$" description="TS function argument" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
@@ -39,7 +39,7 @@
   <template name="prim" value="private $name$ ($ARGS$): $RETURNTYPE$ {&#10;  $END$&#10;}" description="private method" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
@@ -47,7 +47,7 @@
   <template name="prom" value="protected $name$ ($ARGS$): $RETURNTYPE$ {&#10;  $END$&#10;}" description="protected method" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
@@ -55,58 +55,55 @@
   <template name="pubm" value="public $name$ ($ARGS$): $RETURNTYPE$ {&#10;  $END$&#10;}" description="public method" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="pubg" value="public get $NAME$ (): $RETURNTYPE$ {&#10;  return this.$LOCALVAR$&#10;}" description="public getter" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
-    <variable name="LOCALVAR" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LOCALVAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="prog" value="protected get $NAME$ (): $RETURNTYPE$ {&#10;  return this.$LOCALVAR$&#10;}" description="protected getter" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
-    <variable name="LOCALVAR" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LOCALVAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="prig" value="private get $NAME$ (): $RETURNTYPE$ {&#10;  return this.$LOCALVAR$&#10;}" description="private getter" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
-    <variable name="LOCALVAR" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LOCALVAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="pubs" value="public set $name$ (value: $TYPE$): $RETURNTYPE$ {&#10;  this.$LOCALVAR$ = value&#10;}" description="public setter" toReformat="false" toShortenFQNames="true">
+  <template name="pubs" value="public set $name$ (value: $TYPE$) {&#10;  this.$LOCALVAR$ = value&#10;}" description="public setter" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
-    <variable name="LOCALVAR" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LOCALVAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="pros" value="protected set $name$ (value: $TYPE$): $RETURNTYPE$ {&#10;  this.$LOCALVAR$ = value&#10;}" description="protected setter" toReformat="false" toShortenFQNames="true">
+  <template name="pros" value="protected set $name$ (value: $TYPE$) {&#10;  this.$LOCALVAR$ = value&#10;}" description="protected setter" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
-    <variable name="LOCALVAR" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LOCALVAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="pris" value="private set $NAME$ (value: $TYPE$): $RETURNTYPE$ {&#10;  this.$LOCALVAR$ = value&#10;}" description="private setter" toReformat="false" toShortenFQNames="true">
+  <template name="pris" value="private set $NAME$ (value: $TYPE$) {&#10;  this.$LOCALVAR$ = value&#10;}" description="private setter" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
-    <variable name="LOCALVAR" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LOCALVAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
@@ -114,7 +111,7 @@
   <template name="proam" value="protected async $name$ ($ARGS$): $RETURNTYPE$ {&#10;  $END$&#10;}" description="protected async method" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
@@ -122,7 +119,7 @@
   <template name="priam" value="private async $name$ ($ARGS$): $RETURNTYPE$ {&#10;  $END$&#10;}" description="private async method" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
@@ -130,7 +127,7 @@
   <template name="pubam" value="public async $name$ ($ARGS$): $RETURNTYPE$ {&#10;  $END$&#10;}" description="public async method" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
