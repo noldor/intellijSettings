@@ -20,6 +20,7 @@
       <mapping ext="sqlite" type="PLAIN_TEXT" />
       <mapping ext="axlsx" type="Ruby" />
       <mapping ext="theme" type="SCSS" />
+      <mapping ext="template" type="Twig" />
       <removed_mapping ext="so" type="UNKNOWN" />
     </extensionMap>
   </component>
