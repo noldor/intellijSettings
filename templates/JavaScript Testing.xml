@@ -13,8 +13,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="it" value="it('should $NAME$', () =&gt; {&#10;  $END$&#10;})" description="Inserts it() block" toReformat="false" toShortenFQNames="true">
+  <template name="it" value="it('should $NAME$', () =&gt; {&#10;  expect($DATA$).to.$END$&#10;})" description="Inserts it() block" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JS_STATEMENT" value="true" />
@@ -42,9 +43,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="desit" value="describe('$DESCRIABLE$', () =&gt; {&#10;  it('should $NAME$', () =&gt; {&#10;    $END$&#10;  })&#10;})" description="insert describe and it statements" toReformat="false" toShortenFQNames="true">
+  <template name="desit" value="describe('$DESCRIABLE$', () =&gt; {&#10;  it('should $NAME$', () =&gt; {&#10;    expect($DATA$).to.$END$&#10;  })&#10;})" description="insert describe and it statements" toReformat="false" toShortenFQNames="true">
     <variable name="DESCRIABLE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
