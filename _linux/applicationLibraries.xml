@@ -1151,6 +1151,7 @@
     </library>
     <library name="ffi (v1.9.18, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/ffi/1.9.18" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/ffi-1.9.18/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/ffi-1.9.18/libtest" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/ffi-1.9.18/ext" />
@@ -1158,6 +1159,7 @@
       </CLASSES>
       <JAVADOC />
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/ffi/1.9.18" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/ffi-1.9.18/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/ffi-1.9.18/libtest" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/ffi-1.9.18/ext" />
@@ -1439,11 +1441,13 @@
     </library>
     <library name="iconv (v1.0.4, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/iconv/1.0.4" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/iconv-1.0.4/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/iconv-1.0.4/ext" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/iconv/1.0.4" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/iconv-1.0.4/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/iconv-1.0.4/ext" />
       </SOURCES>
@@ -1499,6 +1503,7 @@
     </library>
     <library name="json (v1.8.6, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/json/1.8.6" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/json-1.8.6/tools" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/json-1.8.6/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/json-1.8.6/data" />
@@ -1509,6 +1514,7 @@
       </CLASSES>
       <JAVADOC />
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/json/1.8.6" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/json-1.8.6/tools" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/json-1.8.6/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/json-1.8.6/data" />
@@ -1912,12 +1918,14 @@
     </library>
     <library name="mysql2 (v0.3.21, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/mysql2/0.3.21" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/mysql2-0.3.21/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/mysql2-0.3.21/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/mysql2-0.3.21/support" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/mysql2/0.3.21" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/mysql2-0.3.21/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/mysql2-0.3.21/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/mysql2-0.3.21/support" />
@@ -2117,6 +2125,7 @@
     </library>
     <library name="nokogiri (v1.8.1, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/nokogiri/1.8.1" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/nokogiri-1.8.1/tasks" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/nokogiri-1.8.1/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/nokogiri-1.8.1/ext" />
@@ -2126,6 +2135,7 @@
       </CLASSES>
       <JAVADOC />
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/nokogiri/1.8.1" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/nokogiri-1.8.1/tasks" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/nokogiri-1.8.1/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/nokogiri-1.8.1/ext" />
@@ -2178,12 +2188,14 @@
     </library>
     <library name="oj (v3.3.8, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/oj/3.3.8" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/oj-3.3.8/pages" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/oj-3.3.8/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/oj-3.3.8/lib" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/oj/3.3.8" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/oj-3.3.8/pages" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/oj-3.3.8/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/oj-3.3.8/lib" />
@@ -2300,6 +2312,7 @@
     </library>
     <library name="passenger (v5.1.1, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/passenger/5.1.1" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/passenger-5.1.1/download_cache" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/passenger-5.1.1/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/passenger-5.1.1/resources" />
@@ -2310,6 +2323,7 @@
       </CLASSES>
       <JAVADOC />
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/passenger/5.1.1" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/passenger-5.1.1/download_cache" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/passenger-5.1.1/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/passenger-5.1.1/resources" />
@@ -2321,11 +2335,13 @@
     </library>
     <library name="pg (v0.21.0, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/pg/0.21.0" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/pg-0.21.0/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/pg-0.21.0/lib" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/pg/0.21.0" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/pg-0.21.0/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/pg-0.21.0/lib" />
       </SOURCES>
@@ -3153,12 +3169,14 @@
     </library>
     <library name="redcarpet (v3.3.4, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/redcarpet/3.3.4" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/redcarpet-3.3.4/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/redcarpet-3.3.4/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/redcarpet-3.3.4/lib" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/redcarpet/3.3.4" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/redcarpet-3.3.4/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/redcarpet-3.3.4/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/redcarpet-3.3.4/lib" />
@@ -3184,12 +3202,14 @@
     </library>
     <library name="rmagick (v2.16.0, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/rmagick/2.16.0" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/rmagick-2.16.0/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/rmagick-2.16.0/deprecated" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/rmagick-2.16.0/lib" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/rmagick/2.16.0" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/rmagick-2.16.0/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/rmagick-2.16.0/deprecated" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/rmagick-2.16.0/lib" />
@@ -3422,12 +3442,14 @@
     </library>
     <library name="ruby-prof (v0.16.2, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/ruby-prof/0.16.2" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/ruby-prof-0.16.2/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/ruby-prof-0.16.2/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/ruby-prof-0.16.2/bin" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/ruby-prof/0.16.2" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/ruby-prof-0.16.2/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/ruby-prof-0.16.2/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/ruby-prof-0.16.2/bin" />
@@ -4037,12 +4059,14 @@
     </library>
     <library name="unicode (v0.4.4.4, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/unicode/0.4.4.4" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/unicode-0.4.4.4/tools" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/unicode-0.4.4.4/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/unicode-0.4.4.4/ext" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/unicode/0.4.4.4" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/unicode-0.4.4.4/tools" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/unicode-0.4.4.4/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/unicode-0.4.4.4/ext" />
