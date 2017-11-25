@@ -35,37 +35,37 @@
     <variable name="RETURN" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="pubv" value="public $NAME$;$END$" description="public variable" toReformat="false" toShortenFQNames="true">
+  <template name="pubv" value="public $$$NAME$;$END$" description="public variable" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
-  <template name="priv" value="private $NAME$;$END$" description="private variable" toReformat="false" toShortenFQNames="true">
+  <template name="priv" value="private $$$NAME$;$END$" description="private variable" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
-  <template name="prov" value="protected $NAME$;$END$" description="protected variable" toReformat="false" toShortenFQNames="true">
+  <template name="prov" value="protected $$$NAME$;$END$" description="protected variable" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
-  <template name="pubsv" value="public static $NAME$;$END$" description="public static variable" toReformat="false" toShortenFQNames="true">
+  <template name="pubsv" value="public static $$$NAME$;$END$" description="public static variable" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
-  <template name="prisv" value="private static $NAME$;$END$" description="private static variable" toReformat="false" toShortenFQNames="true">
+  <template name="prisv" value="private static $$$NAME$;$END$" description="private static variable" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
-  <template name="prosv" value="protected static $NAME$;$END$" description="protected static variable" toReformat="false" toShortenFQNames="true">
+  <template name="prosv" value="protected static $$$NAME$;$END$" description="protected static variable" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
