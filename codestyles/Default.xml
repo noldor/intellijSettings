@@ -14,7 +14,6 @@
     <option name="ALIGN_PHPDOC_COMMENTS" value="true" />
     <option name="PHPDOC_BLANK_LINES_AROUND_PARAMETERS" value="true" />
     <option name="PHPDOC_WRAP_LONG_LINES" value="true" />
-    <option name="PHPDOC_THROWS_CALL_TREE_ANALYSIS_DEPTH" value="0" />
     <option name="PHPDOC_THROWS_IGNORE_RUNTIME_EXCEPTIONS" value="false" />
     <option name="PHPDOC_THROWS_IGNORE_LOGIC_EXCEPTIONS" value="false" />
     <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
