@@ -9,6 +9,12 @@
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="NewFxmlFile" is_action="true" action_type="-1" position="21">
+      <path value="root" />
+      <path value="Favorites View Popup Menu" />
+      <path value="New" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="NewPythonPackage" is_action="true" action_type="-1" position="18">
       <path value="root" />
       <path value="Project View Popup Menu" />
@@ -19,6 +25,12 @@
       <path value="root" />
       <path value="Scope View Popup Menu" />
       <path value="Project View Popup Menu" />
+      <path value="New" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="NewPythonPackage" is_action="true" action_type="-1" position="18">
+      <path value="root" />
+      <path value="Favorites View Popup Menu" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
@@ -37,12 +49,6 @@
     <group value="NewPythonPackage" is_action="true" action_type="-1" position="18">
       <path value="root" />
       <path value="Navigation Bar" />
-      <path value="New" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="NewPythonPackage" is_action="true" action_type="1" position="22">
-      <path value="root" />
-      <path value="Favorites View Popup Menu" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
