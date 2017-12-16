@@ -1,0 +1,12 @@
+<list display="create files">
+  <action id="NewJavaScriptFile" />
+  <action id="NewTypeScriptFile" />
+  <action id="NewHtmlFile" />
+  <action id="NewStylesheetFile" />
+  <action id="NewPugFile" />
+  <action id="NewPackageJsonFile" />
+  <action id="NewTypeScriptConfigFile" />
+  <action id="QuickList.$Separator$" />
+  <action id="PhpNewClass" />
+  <action id="PhpUnitNewTestFromClass" />
+</list>

@@ -1,6 +1,6 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
-    <group value="NewPythonPackage" is_action="true" action_type="-1" position="25">
+    <group value="NewJavaScriptFile" is_action="true" action_type="1" position="0">
       <path value="root" />
       <path value="Main menu" />
       <path value="File" />
@@ -9,46 +9,21 @@
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="NewFxmlFile" is_action="true" action_type="-1" position="21">
+    <group value="NewTypeScriptFile" is_action="true" action_type="1" position="1">
       <path value="root" />
-      <path value="Favorites View Popup Menu" />
+      <path value="Main menu" />
+      <path value="File" />
+      <path value="File Open Actions" />
+      <path value="Open Project Actions" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="NewPythonPackage" is_action="true" action_type="-1" position="18">
+    <group seperator="true" action_type="1" position="2">
       <path value="root" />
-      <path value="Project View Popup Menu" />
-      <path value="New" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="NewPythonPackage" is_action="true" action_type="-1" position="18">
-      <path value="root" />
-      <path value="Scope View Popup Menu" />
-      <path value="Project View Popup Menu" />
-      <path value="New" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="NewPythonPackage" is_action="true" action_type="-1" position="18">
-      <path value="root" />
-      <path value="Favorites View Popup Menu" />
-      <path value="New" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="NewPythonPackage" is_action="true" action_type="-1" position="18">
-      <path value="root" />
-      <path value="Commander View Popup Menu" />
-      <path value="New" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="NewPythonPackage" is_action="true" action_type="-1" position="18">
-      <path value="root" />
-      <path value="Java EE View Popup Menu" />
-      <path value="New" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="NewPythonPackage" is_action="true" action_type="-1" position="18">
-      <path value="root" />
-      <path value="Navigation Bar" />
+      <path value="Main menu" />
+      <path value="File" />
+      <path value="File Open Actions" />
+      <path value="Open Project Actions" />
       <path value="New" />
       <option name="myInitialPosition" value="-1" />
     </group>

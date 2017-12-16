@@ -11,5 +11,11 @@
   <action id="PhpNewClass">
     <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
+  <action id="QuickList.create files">
+    <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
+  </action>
+  <action id="QuickList.test">
+    <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
+  </action>
   <action id="ShelveChanges.UnshelveWithDialog" />
 </keymap>
