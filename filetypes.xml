@@ -32,6 +32,7 @@
       <mapping ext="theme" type="SCSS" />
       <mapping ext="template" type="Twig" />
       <removed_mapping ext="so" type="UNKNOWN" />
+      <mapping ext="form" type="XML" />
     </extensionMap>
   </component>
 </application>
