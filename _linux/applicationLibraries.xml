@@ -460,6 +460,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2/gems/concurrent-ruby-1.0.5/lib" />
       </SOURCES>
     </library>
+    <library name="connection_pool (v2.2.1, RVM: ruby-2.4.2 [new-control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/connection_pool-2.2.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/connection_pool-2.2.1/lib" />
+      </SOURCES>
+    </library>
     <library name="crass (v1.0.3, RVM: ruby-2.4.2 [new-control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/crass-1.0.3/lib" />
@@ -2076,6 +2085,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2/gems/rack-2.0.3/bin" />
       </SOURCES>
     </library>
+    <library name="rack-protection (v2.0.0, RVM: ruby-2.4.2 [new-control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/rack-protection-2.0.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/rack-protection-2.0.0/lib" />
+      </SOURCES>
+    </library>
     <library name="rack-test (v0.6.3, RVM: ruby-2.4.2 [control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/rack-test-0.6.3/lib" />
@@ -2403,6 +2421,19 @@
         <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.4.2/lib/ruby/2.4.0/rdoc/rd" />
       </SOURCES>
     </library>
+    <library name="redis (v4.0.1, RVM: ruby-2.4.2 [new-control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/redis-4.0.1/.travis" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/redis-4.0.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/redis-4.0.1/benchmarking" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/redis-4.0.1/.travis" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/redis-4.0.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/redis-4.0.1/benchmarking" />
+      </SOURCES>
+    </library>
     <library name="responders (v2.4.0, RVM: ruby-2.4.2 [control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/responders-2.4.0/lib" />
@@ -2708,6 +2739,21 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/shotgun-0.9.2/man" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/shotgun-0.9.2/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/shotgun-0.9.2/bin" />
+      </SOURCES>
+    </library>
+    <library name="sidekiq (v5.0.5, RVM: ruby-2.4.2 [new-control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/sidekiq-5.0.5/web" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/sidekiq-5.0.5/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/sidekiq-5.0.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/sidekiq-5.0.5/bin" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/sidekiq-5.0.5/web" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/sidekiq-5.0.5/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/sidekiq-5.0.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/sidekiq-5.0.5/bin" />
       </SOURCES>
     </library>
     <library name="simplecov (v0.15.1, RVM: ruby-2.4.2 [control]) [gem]">
