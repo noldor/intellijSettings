@@ -270,6 +270,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/byebug-9.0.6/bin" />
       </SOURCES>
     </library>
+    <library name="cache (v0.4.1, RVM: ruby-2.4.2 [new-control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/cache-0.4.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/cache-0.4.1/benchmarks" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/cache-0.4.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/cache-0.4.1/benchmarks" />
+      </SOURCES>
+    </library>
     <library name="cachy (v0.4.2, RVM: ruby-2.4.2 [new-control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/cachy-0.4.2/lib" />
@@ -1218,6 +1229,15 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/libnotify-0.9.3/etc" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/libnotify-0.9.3/lib" />
+      </SOURCES>
+    </library>
+    <library name="lightly (v0.2.1, RVM: ruby-2.4.2 [new-control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/lightly-0.2.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/lightly-0.2.1/lib" />
       </SOURCES>
     </library>
     <library name="listen (v3.1.5, RVM: ruby-2.4.2 [control]) [gem]">
