@@ -3479,6 +3479,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/xmlrpc-0.3.0/bin" />
       </SOURCES>
     </library>
+    <library name="xmlrpc (v0.3.0, RVM: ruby-2.4.2 [new-control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/xmlrpc-0.3.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/xmlrpc-0.3.0/bin" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/xmlrpc-0.3.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/xmlrpc-0.3.0/bin" />
+      </SOURCES>
+    </library>
     <library name="xpath (v2.1.0, RVM: ruby-2.4.2 [control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/xpath-2.1.0/lib" />
