@@ -1528,6 +1528,51 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/json-2.1.0/tools" />
       </SOURCES>
     </library>
+    <library name="jsonapi-deserializable (v0.2.0, RVM: ruby-2.4.2 [new-control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-deserializable-0.2.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-deserializable-0.2.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="jsonapi-hanami (v0.1.2, RVM: ruby-2.4.2 [new-control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-hanami-0.1.2/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-hanami-0.1.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="jsonapi-rb (v0.1.2, RVM: ruby-2.4.2 [new-control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-rb-0.1.2" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-rb-0.1.2" />
+      </SOURCES>
+    </library>
+    <library name="jsonapi-renderer (v0.2.0, RVM: ruby-2.4.2 [new-control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-renderer-0.2.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-renderer-0.2.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="jsonapi-serializable (v0.3.0, RVM: ruby-2.4.2 [new-control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-serializable-0.3.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-serializable-0.3.0/lib" />
+      </SOURCES>
+    </library>
     <library name="kgio (v2.11.0, RVM: ruby-2.4.2 [control]) [gem]">
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs24/kgio/2.11.0" />
