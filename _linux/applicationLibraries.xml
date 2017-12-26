@@ -1555,6 +1555,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-rb-0.1.2" />
       </SOURCES>
     </library>
+    <library name="jsonapi-renderer (v0.1.3, RVM: ruby-2.4.2 [new-control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-renderer-0.1.3/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-renderer-0.1.3/lib" />
+      </SOURCES>
+    </library>
     <library name="jsonapi-renderer (v0.2.0, RVM: ruby-2.4.2 [new-control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-renderer-0.2.0/lib" />
@@ -1562,6 +1571,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-renderer-0.2.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="jsonapi-serializable (v0.1.3, RVM: ruby-2.4.2 [new-control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-serializable-0.1.3/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@new-control/gems/jsonapi-serializable-0.1.3/lib" />
       </SOURCES>
     </library>
     <library name="jsonapi-serializable (v0.3.0, RVM: ruby-2.4.2 [new-control]) [gem]">
