@@ -2954,6 +2954,19 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/rubocop-0.51.0/assets" />
       </SOURCES>
     </library>
+    <library name="ruby-debug-ide (v0.6.1.beta10, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/ruby-debug-ide-0.6.1.beta10/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/ruby-debug-ide-0.6.1.beta10/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/ruby-debug-ide-0.6.1.beta10/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/ruby-debug-ide-0.6.1.beta10/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/ruby-debug-ide-0.6.1.beta10/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/ruby-debug-ide-0.6.1.beta10/lib" />
+      </SOURCES>
+    </library>
     <library name="ruby-debug-ide (v0.6.1.beta9, RVM: ruby-2.4.2 [control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/ruby-debug-ide-0.6.1.beta9/ext" />
