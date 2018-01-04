@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'control'" />
-    <option name="defaultScopeName" value="Project 'control'" />
-    <option name="SEARCH_SCOPE" value="Project 'control'" />
+    <option name="customScope" value="File '.../app/User.php [cms]'" />
+    <option name="defaultScopeName" value="File '.../app/User.php [cms]'" />
+    <option name="SEARCH_SCOPE" value="File '.../app/User.php [cms]'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
