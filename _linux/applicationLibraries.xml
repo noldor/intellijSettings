@@ -197,6 +197,19 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/awesome_nested_set-3.1.3/lib" />
       </SOURCES>
     </library>
+    <library name="backports (v3.11.0, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/backports-3.11.0/set_version" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/backports-3.11.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/backports-3.11.0/frozen_old_spec" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/backports-3.11.0/set_version" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/backports-3.11.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/backports-3.11.0/frozen_old_spec" />
+      </SOURCES>
+    </library>
     <library name="backports (v3.8.0, RVM: ruby-2.4.2 [control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/backports-3.8.0/lib" />
@@ -447,6 +460,23 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/daru-0.1.6/benchmarks" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/daru-0.1.6/profile" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/daru-0.1.6/lib" />
+      </SOURCES>
+    </library>
+    <library name="daru (v0.2.0, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/daru-0.2.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/daru-0.2.0/profile" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/daru-0.2.0/benchmarks" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/daru-0.2.0/images" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/daru-0.2.0/.github" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/daru-0.2.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/daru-0.2.0/profile" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/daru-0.2.0/benchmarks" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/daru-0.2.0/images" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/daru-0.2.0/.github" />
       </SOURCES>
     </library>
     <library name="debase (v0.2.1, RVM: ruby-2.4.2 [control]) [gem]">
@@ -1491,6 +1521,15 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/orm_adapter-0.5.0/gemfiles" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/orm_adapter-0.5.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="packable (v1.3.9, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/packable-1.3.9/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/packable-1.3.9/lib" />
       </SOURCES>
     </library>
     <library name="parallel (v1.12.0, RVM: ruby-2.4.2 [control]) [gem]">
