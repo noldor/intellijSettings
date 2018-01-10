@@ -1,0 +1,12 @@
+<application>
+  <component name="UmlConfiguration">
+    <option name="categories">
+      <map>
+        <entry id="JAVA" categories="Fields;Constructors;Methods;Properties;Inner Classes;Show Cyclic" />
+        <entry id="PHP" categories="Fields;Constants;Constructors;Methods" />
+        <entry id="RailsDependency" categories="System DB fields;Own fields" />
+        <entry id="Ruby" categories="Fields;Methods;Constants" />
+      </map>
+    </option>
+  </component>
+</application>
