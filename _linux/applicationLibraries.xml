@@ -725,6 +725,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/debase-0.2.2.beta11/lib" />
       </SOURCES>
     </library>
+    <library name="debase (v0.2.2.beta14, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/debase-0.2.2.beta14/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/debase-0.2.2.beta14/ext" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/debase-0.2.2.beta14/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/debase-0.2.2.beta14/ext" />
+      </SOURCES>
+    </library>
     <library name="debase-ruby_core_source (v0.10.2, RVM: ruby-2.4.2 [control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/debase-ruby_core_source-0.10.2/lib" />
@@ -973,6 +984,19 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/dotenv-rails-2.2.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="dry-auto_inject (v0.4.5, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/dry-auto_inject-0.4.5/rakelib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/dry-auto_inject-0.4.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/dry-auto_inject-0.4.5/bin" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/dry-auto_inject-0.4.5/rakelib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/dry-auto_inject-0.4.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/dry-auto_inject-0.4.5/bin" />
       </SOURCES>
     </library>
     <library name="dry-configurable (v0.7.0, RVM: ruby-2.4.2 [control]) [gem]">
@@ -1535,6 +1559,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/json-2.1.0/tools" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/json-2.1.0/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/json-2.1.0/tests" />
+      </SOURCES>
+    </library>
+    <library name="jwt (v2.1.0, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/jwt-2.1.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/jwt-2.1.0/lib" />
       </SOURCES>
     </library>
     <library name="libnotify (v0.9.4, RVM: ruby-2.4.2 [control]) [gem]">
@@ -3305,6 +3338,19 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/ruby-debug-ide-0.6.1.beta10/lib" />
       </SOURCES>
     </library>
+    <library name="ruby-debug-ide (v0.6.1.beta12, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/ruby-debug-ide-0.6.1.beta12/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/ruby-debug-ide-0.6.1.beta12/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/ruby-debug-ide-0.6.1.beta12/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/ruby-debug-ide-0.6.1.beta12/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/ruby-debug-ide-0.6.1.beta12/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/ruby-debug-ide-0.6.1.beta12/lib" />
+      </SOURCES>
+    </library>
     <library name="ruby-ole (v1.2.12.1, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/ruby-ole-1.2.12.1/lib" />
@@ -3932,6 +3978,17 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/warden-1.2.7/lib" />
+      </SOURCES>
+    </library>
+    <library name="warden-jwt_auth (v0.3.4, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/warden-jwt_auth-0.3.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/warden-jwt_auth-0.3.4/bin" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/warden-jwt_auth-0.3.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/warden-jwt_auth-0.3.4/bin" />
       </SOURCES>
     </library>
     <library name="wasabi (v3.3.1, RVM: ruby-2.3.3 [tm]) [gem]">
