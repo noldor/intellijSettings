@@ -756,6 +756,19 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/gem-wrappers-1.4.0/ext" />
       </SOURCES>
     </library>
+    <library name="gemojione (v3.3.0, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/gemojione-3.3.0/assets" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/gemojione-3.3.0/config" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/gemojione-3.3.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/gemojione-3.3.0/assets" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/gemojione-3.3.0/config" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/gemojione-3.3.0/lib" />
+      </SOURCES>
+    </library>
     <library name="globalid (v0.4.0, RVM: ruby-2.4.2 [control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/globalid-0.4.0/lib" />
@@ -772,6 +785,21 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/globalid-0.4.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="gollum (v4.1.2, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/gollum-4.1.2/licenses" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/gollum-4.1.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/gollum-4.1.2/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/gollum-4.1.2/contrib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/gollum-4.1.2/licenses" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/gollum-4.1.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/gollum-4.1.2/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/gollum-4.1.2/contrib" />
       </SOURCES>
     </library>
     <library name="guard (v2.14.1, RVM: ruby-2.4.2 [control]) [gem]">
@@ -1448,6 +1476,19 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/pg-0.21.0/ext" />
       </SOURCES>
     </library>
+    <library name="posix-spawn (v0.3.13, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/posix-spawn-0.3.13/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/posix-spawn-0.3.13/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/posix-spawn-0.3.13/ext" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/posix-spawn-0.3.13/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/posix-spawn-0.3.13/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/posix-spawn-0.3.13/ext" />
+      </SOURCES>
+    </library>
     <library name="powerpack (v0.1.1, RVM: ruby-2.4.2 [control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/powerpack-0.1.1/lib" />
@@ -1649,6 +1690,21 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/puma-3.11.0/lib" />
       </SOURCES>
     </library>
+    <library name="rack (v1.6.8, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/rack-1.6.8/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/rack-1.6.8/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/rack-1.6.8/example" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/rack-1.6.8/contrib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/rack-1.6.8/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/rack-1.6.8/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/rack-1.6.8/example" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/rack-1.6.8/contrib" />
+      </SOURCES>
+    </library>
     <library name="rack (v2.0.3, RVM: ruby-2.4.2 [control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/rack-2.0.3/example" />
@@ -1662,6 +1718,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/rack-2.0.3/contrib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/rack-2.0.3/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/rack-2.0.3/bin" />
+      </SOURCES>
+    </library>
+    <library name="rack-protection (v1.5.3, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/rack-protection-1.5.3/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/rack-protection-1.5.3/lib" />
       </SOURCES>
     </library>
     <library name="rack-test (v0.6.3, RVM: ruby-2.4.2 [control]) [gem]">
@@ -2357,6 +2422,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/sprockets-rails-3.2.1/lib" />
       </SOURCES>
     </library>
+    <library name="stringex (v2.8.2, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/stringex-2.8.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/stringex-2.8.2/locales" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/stringex-2.8.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/stringex-2.8.2/locales" />
+      </SOURCES>
+    </library>
     <library name="thor (v0.20.0, RVM: ruby-2.4.2 [control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/thor-0.20.0/lib" />
@@ -2381,6 +2457,19 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/thread_safe-0.3.6/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/thread_safe-0.3.6/yard-template" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/thread_safe-0.3.6/tasks" />
+      </SOURCES>
+    </library>
+    <library name="tilt (v2.0.8, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/tilt-2.0.8/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/tilt-2.0.8/man" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/tilt-2.0.8/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/tilt-2.0.8/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/tilt-2.0.8/man" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/tilt-2.0.8/lib" />
       </SOURCES>
     </library>
     <library name="tzinfo (v1.2.3, RVM: ruby-2.4.2 [control]) [gem]">
