@@ -1,4 +1,7 @@
 <keymap version="1" name="Default for XWin copy" parent="Default for XWin">
+  <action id="ActivateDesignerToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
+  </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>

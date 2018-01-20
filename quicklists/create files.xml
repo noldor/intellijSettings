@@ -9,4 +9,6 @@
   <action id="QuickList.$Separator$" />
   <action id="PhpNewClass" />
   <action id="PhpUnitNewTestFromClass" />
+  <action id="CreateVueSingleFileComp" />
+  <action id="QuickList.$Separator$" />
 </list>

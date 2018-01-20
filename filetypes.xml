@@ -4,6 +4,7 @@
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern=".nycrc" type="JSON" />
       <mapping pattern="rspec_results" type="PLAIN_TEXT" />
+      <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern="users" type="PLAIN_TEXT" />
       <mapping pattern=".appenv" type="PLAIN_TEXT" />
       <mapping pattern="Reports%3A%3ASaveToCacheJob%2Fnamespace%3DReports%253A%253AOTO%253A%253AForms%26params%255Buser%255D%3D1" type="PLAIN_TEXT" />
