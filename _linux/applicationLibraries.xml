@@ -904,6 +904,25 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/devise-4.3.0/config" />
       </SOURCES>
     </library>
+    <library name="devise (v4.4.1, RVM: ruby-2.5.0 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/devise-4.4.1/guides" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/devise-4.4.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/devise-4.4.1/gemfiles" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/devise-4.4.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/devise-4.4.1/config" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/devise-4.4.1/app" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/devise-4.4.1/guides" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/devise-4.4.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/devise-4.4.1/gemfiles" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/devise-4.4.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/devise-4.4.1/config" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/devise-4.4.1/app" />
+      </SOURCES>
+    </library>
     <library name="devise-jwt (v0.5.4, RVM: ruby-2.5.0 [control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/devise-jwt-0.5.4/lib" />
