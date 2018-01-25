@@ -2150,6 +2150,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/i18n-0.9.1/lib" />
       </SOURCES>
     </library>
+    <library name="i18n (v0.9.3, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/i18n-0.9.3/gemfiles" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/i18n-0.9.3/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/i18n-0.9.3/gemfiles" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/i18n-0.9.3/lib" />
+      </SOURCES>
+    </library>
     <library name="i18n (v0.9.3, RVM: ruby-2.5.0 [control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/i18n-0.9.3/lib" />
@@ -2845,6 +2856,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/minitest-5.10.3/lib" />
       </SOURCES>
     </library>
+    <library name="minitest (v5.11.1, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/minitest-5.11.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/minitest-5.11.1/lib" />
+      </SOURCES>
+    </library>
     <library name="minitest (v5.11.1, RVM: ruby-2.5.0 [control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/minitest-5.11.1/lib" />
@@ -3106,6 +3126,21 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/nio4r-2.1.0/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/nio4r-2.1.0/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/nio4r-2.1.0/tasks" />
+      </SOURCES>
+    </library>
+    <library name="nio4r (v2.2.0, RVM: ruby-2.4.2 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs24/nio4r/2.2.0" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/nio4r-2.2.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/nio4r-2.2.0/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/nio4r-2.2.0/tasks" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs24/nio4r/2.2.0" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/nio4r-2.2.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/nio4r-2.2.0/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/nio4r-2.2.0/tasks" />
       </SOURCES>
     </library>
     <library name="nio4r (v2.2.0, RVM: ruby-2.5.0 [control]) [gem]">
