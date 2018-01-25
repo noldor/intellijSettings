@@ -750,6 +750,57 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/database_cleaner-1.6.1/lib" />
       </SOURCES>
     </library>
+    <library name="debase (v0.2.1, RVM: ruby-2.5.0 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/debase-0.2.1/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/debase-0.2.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/debase-0.2.1/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/debase-0.2.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="debase (v0.2.2.beta14, RVM: ruby-2.3.3 [tm]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/debase-0.2.2.beta14/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/debase-0.2.2.beta14/ext" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/debase-0.2.2.beta14/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/debase-0.2.2.beta14/ext" />
+      </SOURCES>
+    </library>
+    <library name="debase (v0.2.2.beta14, RVM: ruby-2.5.0 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/debase-0.2.2.beta14/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/debase-0.2.2.beta14/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/debase-0.2.2.beta14/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/debase-0.2.2.beta14/lib" />
+      </SOURCES>
+    </library>
+    <library name="debase-ruby_core_source (v0.10.2, RVM: ruby-2.3.3 [tm]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/debase-ruby_core_source-0.10.2/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/debase-ruby_core_source-0.10.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="debase-ruby_core_source (v0.10.2, RVM: ruby-2.5.0 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/debase-ruby_core_source-0.10.2/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/debase-ruby_core_source-0.10.2/lib" />
+      </SOURCES>
+    </library>
     <library name="declarative (v0.0.10, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/declarative-0.0.10/lib" />
@@ -3516,6 +3567,19 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/rubocop-0.52.1/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/rubocop-0.52.1/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/rubocop-0.52.1/config" />
+      </SOURCES>
+    </library>
+    <library name="ruby-debug-ide (v0.6.1.beta12, RVM: ruby-2.5.0 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/ruby-debug-ide-0.6.1.beta12/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/ruby-debug-ide-0.6.1.beta12/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/ruby-debug-ide-0.6.1.beta12/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/ruby-debug-ide-0.6.1.beta12/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/ruby-debug-ide-0.6.1.beta12/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/ruby-debug-ide-0.6.1.beta12/lib" />
       </SOURCES>
     </library>
     <library name="ruby-ole (v1.2.12.1, RVM: ruby-2.3.3 [tm]) [gem]">
