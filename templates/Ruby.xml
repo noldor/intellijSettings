@@ -1,0 +1,7 @@
+<templateSet group="Ruby">
+  <template name="rassign" value="$KEY$: :&quot;$VALUE$&quot;" description="variable assignment" toReformat="true" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
