@@ -1593,6 +1593,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/erubi-1.7.0/lib" />
       </SOURCES>
     </library>
+    <library name="exception_notification (v4.2.2, RVM: ruby-2.5.0 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/exception_notification-4.2.2/gemfiles" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/exception_notification-4.2.2/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/exception_notification-4.2.2/gemfiles" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/exception_notification-4.2.2/lib" />
+      </SOURCES>
+    </library>
     <library name="fakefs (v0.11.2, RVM: ruby-2.4.2 [control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/fakefs-0.11.2/lib" />
