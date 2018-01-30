@@ -4986,6 +4986,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2/gems/rubyzip-1.2.1/samples" />
       </SOURCES>
     </library>
+    <library name="russian (v0.6.0, RVM: ruby-2.5.0 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/russian-0.6.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/russian-0.6.0/lib" />
+      </SOURCES>
+    </library>
     <library name="sanitize (v2.1.0, RVM: ruby-2.4.2 [control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.2@control/gems/sanitize-2.1.0/lib" />
