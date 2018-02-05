@@ -268,6 +268,15 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/awesome_nested_set-3.1.3/lib" />
       </SOURCES>
     </library>
+    <library name="axlsx (v2.0.1, RVM: ruby-2.5.0 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/axlsx-2.0.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/axlsx-2.0.1/lib" />
+      </SOURCES>
+    </library>
     <library name="axlsx (v2.1.0.pre, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/axlsx-2.1.0.pre/lib" />
@@ -1529,6 +1538,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/htmlentities-4.3.4/lib" />
       </SOURCES>
     </library>
+    <library name="htmlentities (v4.3.4, RVM: ruby-2.5.0 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/htmlentities-4.3.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/htmlentities-4.3.4/perf" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/htmlentities-4.3.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/htmlentities-4.3.4/perf" />
+      </SOURCES>
+    </library>
     <library name="http-cookie (v1.0.3, RVM: ruby-2.5.0 [control]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/http-cookie-1.0.3/lib" />
@@ -1713,6 +1733,21 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/jwt-2.1.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="kgio (v2.11.2, RVM: ruby-2.5.0 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs25/kgio/2.11.2" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/kgio-2.11.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/kgio-2.11.2/archive" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/kgio-2.11.2/ext" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs25/kgio/2.11.2" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/kgio-2.11.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/kgio-2.11.2/archive" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/kgio-2.11.2/ext" />
       </SOURCES>
     </library>
     <library name="libnotify (v0.9.4, RVM: ruby-2.5.0 [control]) [gem]">
@@ -2961,6 +2996,21 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/rainbow-3.0.0/lib" />
       </SOURCES>
     </library>
+    <library name="raindrops (v0.19.0, RVM: ruby-2.5.0 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs25/raindrops/0.19.0" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/raindrops-0.19.0/archive" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/raindrops-0.19.0/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/raindrops-0.19.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs25/raindrops/0.19.0" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/raindrops-0.19.0/archive" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/raindrops-0.19.0/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/raindrops-0.19.0/lib" />
+      </SOURCES>
+    </library>
     <library name="rake (v10.4.2, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@global/gems/rake-10.4.2/lib" />
@@ -3713,6 +3763,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@global/gems/rubygems-bundler-1.4.4/lib" />
       </SOURCES>
     </library>
+    <library name="rubyzip (v1.0.0, RVM: ruby-2.5.0 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/rubyzip-1.0.0/samples" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/rubyzip-1.0.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/rubyzip-1.0.0/samples" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/rubyzip-1.0.0/lib" />
+      </SOURCES>
+    </library>
     <library name="rubyzip (v1.1.7, RVM: ruby-2.3.3 [tm]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@tm/gems/rubyzip-1.1.7/samples" />
@@ -4254,6 +4315,29 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/unicode-display_width-1.3.0/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/unicode-display_width-1.3.0/data" />
+      </SOURCES>
+    </library>
+    <library name="unicorn (v5.4.0, RVM: ruby-2.5.0 [control]) [gem]">
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs25/unicorn/5.4.0" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/unicorn-5.4.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/unicorn-5.4.0/archive" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/unicorn-5.4.0/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/unicorn-5.4.0/man" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/unicorn-5.4.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/unicorn-5.4.0/Documentation" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/unicorn-5.4.0/t" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs25/unicorn/5.4.0" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/unicorn-5.4.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/unicorn-5.4.0/archive" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/unicorn-5.4.0/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/unicorn-5.4.0/man" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/unicorn-5.4.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/unicorn-5.4.0/Documentation" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.0@control/gems/unicorn-5.4.0/t" />
       </SOURCES>
     </library>
     <library name="uuid (v2.3.8, RVM: ruby-2.3.3 [tm]) [gem]">
