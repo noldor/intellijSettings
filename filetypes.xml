@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern=".nycrc" type="JSON" />
+      <mapping pattern=".huskyrc" type="JSON" />
       <mapping pattern="rspec_results" type="PLAIN_TEXT" />
       <mapping pattern="users" type="PLAIN_TEXT" />
       <mapping pattern=".env.development" type="PLAIN_TEXT" />
