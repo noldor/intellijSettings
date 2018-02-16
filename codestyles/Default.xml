@@ -186,6 +186,17 @@
           <rule>
             <match>
               <AND>
+                <METHOD>true</METHOD>
+                <NAME>constructor</NAME>
+                <PUBLIC>true</PUBLIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
                 <PROPERTY>true</PROPERTY>
                 <PUBLIC>true</PUBLIC>
                 <STATIC>true</STATIC>
